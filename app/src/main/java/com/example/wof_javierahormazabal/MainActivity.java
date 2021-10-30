@@ -3,6 +3,7 @@ package com.example.wof_javierahormazabal;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
@@ -115,6 +116,34 @@ public class MainActivity extends AppCompatActivity {
                     break;
             }
         }
+    }
+
+    public void Facebook(View view)
+    {
+        Intent i = new Intent(Intent.ACTION_VIEW); //accion para abrir un sitio web
+        i.setData(Uri.parse("https://www.facebook.com/"));
+        startActivity(i);
+    }
+
+    public void Youtube (View view)
+    {
+        Intent i = new Intent();
+        i.setData(Uri.parse("https://www.youtube.com/watch?v=_2W6IZqyVFs"));
+        startActivity(i);
+    }
+
+    public void Instagram (View view)
+    {
+        Intent i = new Intent();
+        i.setData(Uri.parse("https://www.instagram.com/wof.cl/?hl=es-la"));
+        startActivity(i);
+    }
+
+    public void Website(View view)
+    {
+        Intent i = new Intent();
+        i.setData(Uri.parse("https://wof.gg/top/pc/1/"));
+        startActivity(i);
     }
 
     public void CrearUser(View view)
