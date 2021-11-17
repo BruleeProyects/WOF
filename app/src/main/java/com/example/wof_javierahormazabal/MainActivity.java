@@ -146,10 +146,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void CrearUser(View view)
-    {
-        Intent i = new Intent(this, CrearUser_act.class);
-        startActivity(i);
-
-    }
 }

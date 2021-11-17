@@ -10,21 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wof_javieraHormazabal">
         <activity
-            android:name=".Tratamientos"
-            android:exported="false" />
-        <activity
-            android:name=".Consultas"
-            android:exported="false" />
-        <activity
-            android:name=".Vacunas"
-            android:exported="false" />
-        <activity
-            android:name=".Calificar_vet"
-            android:exported="false" />
-        <activity
-            android:name=".CrearUser_act"
-            android:exported="false" />
-        <activity
             android:name=".perfil_act"
             android:exported="false" />
         <activity
