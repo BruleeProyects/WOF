@@ -13,6 +13,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import Objetos.Administrador;
+import Objetos.Servicios;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btn;
     private ProgressBar barra;
     Administrador admin = new Administrador();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         btn = findViewById(R.id.btn1);
         barra = findViewById(R.id.pb);
 
-        msj.setVisibility(View.INVISIBLE);
+
         barra.setVisibility(View.INVISIBLE);
 
         btn.setOnClickListener(new View.OnClickListener() {
@@ -79,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
 
+            msj.setVisibility(View.INVISIBLE);
             barra.setVisibility(View.INVISIBLE);
 
             //Validación de la sesión
@@ -97,7 +100,6 @@ public class MainActivity extends AppCompatActivity {
                         Intent i = new Intent(getBaseContext(),perfil_act.class);
                         startActivity(i);
 
-
                     }
                     break;
                 case "":
@@ -108,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     break;
                 default:
-                    if(!usuario.equals(userObj) && !contrasena.equals(passObj))
+                    if(!usuario.equals(userObj) || !contrasena.equals(passObj)  )
                     {
                         msj.setVisibility(View.VISIBLE);
                         msj.setText("Campos incorrectos");

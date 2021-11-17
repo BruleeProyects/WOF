@@ -168,6 +168,7 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFC107"
+                    android:onClick="Servicios"
                     android:text="nuestros servicios"
                     android:textSize="13sp"
                     app:cornerRadius="25dp" />
@@ -185,6 +186,7 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFC107"
+                    android:onClick="Contacto"
                     android:text="contáctanos"
                     android:textSize="13sp"
                     app:cornerRadius="25dp"
@@ -192,12 +194,14 @@
 
                 <Button
                     android:id="@+id/button6"
-                    android:layout_width="wrap_content"
+                    android:layout_width="94dp"
                     android:layout_height="55dp"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:backgroundTint="#FFC107"
-                    android:text="agenda"
+                    android:onClick="Mascotas"
+                    android:text="mascotas"
+                    android:textSize="14sp"
                     app:cornerRadius="25dp"
                     tools:ignore="TouchTargetSizeCheck" />
             </LinearLayout>
