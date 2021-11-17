@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".mascotas_act">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="365dp"
+        android:layout_height="638dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="629dp">
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="298dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/aristotelica_display_demibold_trial"
+                android:gravity="center"
+                android:text="¿NUEVA MASCOTA EN LA FAMILIA?"
+                android:textAlignment="center"
+                android:textColor="#4ac2b9"
+                android:textSize="19sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="292dp"
+                android:layout_height="206dp"
+                android:layout_marginTop="28dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:backgroundTint="#4ac2b9"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:onClick="guardarMascota"
+                    android:text="añadir mascota"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:backgroundTint="#4ac2b9"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:onClick="mostrarMascota"
+                    android:text="mostrar mascota"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:backgroundTint="#4ac2b9"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:onClick="actualizarMascota"
+                    android:text="actualizar mascota"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:backgroundTint="#4ac2b9"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:onClick="eliminarMascota"
+                    android:text="eliminar mascota"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="80dp"
+                android:layout_height="62dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+                app:layout_constraintVertical_bias="0.357"
+                app:srcCompat="@drawable/logowof_black" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="289dp"
+                android:layout_height="224dp"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView39">
+
+                <EditText
+                    android:id="@+id/et_codigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corner"
+                    android:ems="10"
+                    android:fontFamily="@font/montserrat_italic"
+                    android:hint="Ingrese código"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/rounded_corner"
+                    android:ems="10"
+                    android:fontFamily="@font/montserrat_italic"
+                    android:hint="Ingrese nombre"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+
+                <EditText
+                    android:id="@+id/et_esp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/rounded_corner"
+                    android:ems="10"
+                    android:fontFamily="@font/montserrat_italic"
+                    android:hint="Ingrese especie"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+
+                <EditText
+                    android:id="@+id/et_edad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/rounded_corner"
+                    android:ems="10"
+                    android:fontFamily="@font/montserrat_italic"
+                    android:hint="Ingrese edad"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

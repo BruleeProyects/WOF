@@ -29,7 +29,7 @@
                 android:text="Control y Tratamientos"
                 android:textAlignment="center"
                 android:textColor="#4ac2b9"
-                android:textSize="22sp"
+                android:textSize="26sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.506"
                 app:layout_constraintStart_toStartOf="parent"
@@ -97,20 +97,20 @@
 
                     <TextView
                         android:id="@+id/textView13"
-                        android:layout_width="wrap_content"
+                        android:layout_width="1dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/montserrat_italic"
-                        android:text="TextView"
+                        android:text="11-05-21"
                         android:textAlignment="center" />
 
                     <TextView
                         android:id="@+id/textView14"
-                        android:layout_width="wrap_content"
+                        android:layout_width="20dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/montserrat_italic"
-                        android:text="TextView"
+                        android:text="14,500 KG"
                         android:textAlignment="center" />
 
                     <TextView
@@ -119,7 +119,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/montserrat_italic"
-                        android:text="TextView"
+                        android:text="AR"
                         android:textAlignment="center" />
                 </LinearLayout>
 
@@ -134,7 +134,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/montserrat_italic"
-                        android:text="TextView"
+                        android:text="11-05-21"
                         android:textAlignment="center" />
 
                     <TextView
@@ -143,7 +143,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/montserrat_italic"
-                        android:text="TextView"
+                        android:text="14,500 KG"
                         android:textAlignment="center" />
 
                     <TextView
@@ -152,7 +152,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/montserrat_italic"
-                        android:text="TextView"
+                        android:text="ÓCTUPLE"
                         android:textAlignment="center" />
                 </LinearLayout>
             </LinearLayout>
@@ -224,7 +224,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/montserrat_italic"
-                        android:text="TextView"
+                        android:text="20-09-21"
                         android:textAlignment="center" />
 
                     <TextView
@@ -233,7 +233,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/montserrat_italic"
-                        android:text="TextView"
+                        android:text="URG"
                         android:textAlignment="center" />
 
                     <TextView
@@ -242,7 +242,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/montserrat_italic"
-                        android:text="TextView"
+                        android:text="P. Vera"
                         android:textAlignment="center" />
                 </LinearLayout>
 
@@ -257,7 +257,6 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/montserrat_italic"
-                        android:text="TextView"
                         android:textAlignment="center" />
 
                     <TextView
@@ -266,7 +265,6 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/montserrat_italic"
-                        android:text="TextView"
                         android:textAlignment="center" />
 
                     <TextView
@@ -275,7 +273,6 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/montserrat_italic"
-                        android:text="TextView"
                         android:textAlignment="center" />
                 </LinearLayout>
             </LinearLayout>
@@ -325,11 +322,11 @@
 
                             <TextView
                                 android:id="@+id/textView34"
-                                android:layout_width="wrap_content"
+                                android:layout_width="7dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/montserrat_italic"
-                                android:text="TextView"
+                                android:text="11-05-22"
                                 android:textAlignment="center"
                                 android:textColor="#000000" />
 
@@ -339,7 +336,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/montserrat_italic"
-                                android:text="TextView"
+                                android:text="AR"
                                 android:textAlignment="center"
                                 android:textColor="#000000" />
                         </LinearLayout>
@@ -355,7 +352,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/montserrat_italic"
-                                android:text="TextView"
+                                android:text="11-05-22"
                                 android:textAlignment="center"
                                 android:textColor="#000000" />
 
@@ -365,7 +362,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/montserrat_italic"
-                                android:text="TextView"
+                                android:text="ÓCTUPLE"
                                 android:textAlignment="center"
                                 android:textColor="#000000" />
                         </LinearLayout>
