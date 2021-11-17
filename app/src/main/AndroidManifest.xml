@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wof_javieraHormazabal">
         <activity
+            android:name=".carnet_act"
+            android:exported="false" />
+        <activity
             android:name=".perfil_act"
             android:exported="false" />
         <activity

@@ -94,7 +94,6 @@
                 android:layout_width="191dp"
                 android:layout_height="48dp"
                 android:backgroundTint="#4ac2b9"
-                android:onClick="CrearUser"
                 android:text="Salir de wof!"
                 app:cornerRadius="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
